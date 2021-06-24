@@ -16,11 +16,8 @@ public class Persona {
 	public Telefono[] telefonos() {
 		return telefonos.toArray(new Telefono[telefonos.size()]);
 	}
-	public int idPersona() {
-		return id;
-	}
+
 	public String nombre() {
 		return nombre;
 	}
-
 }
